@@ -1,0 +1,116 @@
+{
+  "$schema": "design-tokens",
+  "brand": "Vymotion",
+  "version": "1.0.0",
+  "note": "Token canonici di brand. Sorgente di verità per documenti e UI. Verde ufficiale #588652 (l'app usa ancora #578552 — da uniformare).",
+
+  "color": {
+    "brand": {
+      "green":  { "value": "#588652", "comment": "Verde Performance — primario" },
+      "black":  { "value": "#1D1D1B", "comment": "Nero caldo — testo, logo, titoli" },
+      "gray":   { "value": "#9D9D9C", "comment": "Grigio neutro — secondario, forme" },
+      "white":  { "value": "#FFFFFF", "comment": "Sfondo dominante" }
+    },
+    "green": {
+      "dark": { "value": "#3F6139", "comment": "hover, testo su chiaro" },
+      "soft": { "value": "#E8F0E7", "comment": "sfondi tenui, badge" },
+      "tint": { "value": "rgba(88,134,82,0.12)", "comment": "overlay" }
+    },
+    "gray": {
+      "light":  { "value": "#D6D6D5", "comment": "divisori, bordi" },
+      "bg":     { "value": "#F4F4F3", "comment": "sezioni alternate" },
+      "shadow": { "value": "rgba(157,157,156,0.35)", "comment": "ombra sfalsata delle forme" }
+    },
+    "state": {
+      "warning": { "value": "#E8923A", "comment": "attenzione" },
+      "danger":  { "value": "#D64545", "comment": "allerta/critico" },
+      "muted":   { "value": "#9D9D9C", "comment": "non disponibile" }
+    },
+    "tier": {
+      "base": { "value": "#588652", "comment": "piano Base" },
+      "plus": { "value": "#2E8B8B", "comment": "piano Plus — teal, DA CONFERMARE da asset" },
+      "pro":  { "value": "#7A3FA0", "comment": "piano Pro — viola-magenta, DA CONFERMARE da asset" }
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "display": { "value": "League Gothic, Anton, Oswald, sans-serif", "comment": "titoli — ITALIC + UPPERCASE" },
+      "body":    { "value": "Inter, system-ui, sans-serif", "comment": "corpo, UI, dati" }
+    },
+    "fontWeight": {
+      "regular":  { "value": 400 },
+      "medium":   { "value": 500 },
+      "semibold": { "value": 600 }
+    },
+    "fontSize": {
+      "display": { "value": "4rem",    "comment": "64px — headline" },
+      "h1":      { "value": "2.5rem",  "comment": "40px — titolo pagina" },
+      "h2":      { "value": "1.75rem", "comment": "28px — sezione" },
+      "h3":      { "value": "1.25rem", "comment": "20px — sottosezione" },
+      "body":    { "value": "1rem",    "comment": "16px" },
+      "small":   { "value": "0.875rem","comment": "14px" },
+      "caption": { "value": "0.75rem", "comment": "12px" }
+    },
+    "display": {
+      "transform": { "value": "uppercase" },
+      "style":     { "value": "italic" },
+      "tracking":  { "value": "-0.02em" },
+      "leading":   { "value": 0.95 }
+    },
+    "body": {
+      "leading": { "value": 1.55 }
+    }
+  },
+
+  "spacing": {
+    "1":  { "value": "4px" },
+    "2":  { "value": "8px" },
+    "3":  { "value": "12px" },
+    "4":  { "value": "16px" },
+    "6":  { "value": "24px", "comment": "padding di riferimento" },
+    "8":  { "value": "32px" },
+    "12": { "value": "48px" },
+    "16": { "value": "64px" },
+    "24": { "value": "96px" }
+  },
+
+  "shape": {
+    "radius": {
+      "sm":   { "value": "6px" },
+      "md":   { "value": "12px", "comment": "card, contenitori" },
+      "lg":   { "value": "20px", "comment": "blocchi grandi" },
+      "pill": { "value": "999px" }
+    },
+    "skew":         { "value": "-18deg", "comment": "inclinazione parallelogramma — firma diagonale" },
+    "chevronAngle": { "value": "45deg" }
+  },
+
+  "shadow": {
+    "sm": { "value": "0 1px 3px rgba(29,29,27,0.08)" },
+    "md": { "value": "0 4px 16px rgba(29,29,27,0.10)" },
+    "lg": { "value": "0 12px 32px rgba(29,29,27,0.14)" },
+    "shapeOffset": { "x": "12px", "y": "12px", "comment": "ombra grigia sfalsata dietro le forme" }
+  },
+
+  "layout": {
+    "containerMax": { "value": "1200px" }
+  },
+
+  "signature": {
+    "description": "La firma visiva di Vymotion è la DIAGONALE a ~45°: presente nel monogramma M, nei parallelogrammi, nelle frecce-chevron a opacità decrescente, e nel taglio diagonale delle fotografie. Regola d'oro: foto mai in rettangolo dritto, sempre in cornice diagonale. Verde come accento mirato, mai come riempimento. Molto bianco. Angoli morbidi su forme decise.",
+    "elements": [
+      "monogramma M (tre elementi angolari)",
+      "parallelogramma diagonale (verde pieno / grigio trasparenza)",
+      "chevron x3 a opacità decrescente",
+      "foto in cornice diagonale con ombra grigia sfalsata"
+    ]
+  },
+
+  "voice": {
+    "address": "tu",
+    "register": "tecnico ma accessibile, data-oriented",
+    "rule": "ogni termine tecnico va reso comprensibile; i dati sono protagonisti ma sempre contestualizzati; niente gergo gettato, niente motivazionale urlato",
+    "summary": "competente · diretto · concreto · mai criptico"
+  }
+}
